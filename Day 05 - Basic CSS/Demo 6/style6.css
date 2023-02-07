@@ -1,0 +1,24 @@
+#box
+{
+    width: 350px;
+    display: flex;
+    float: left;
+    border: 6px solid black;
+    border-radius: 6%;
+}
+.box1 {
+    margin-left: 20px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0 0 0 4px mediumslateblue;
+    box-sizing: border-box;
+    border-radius: 36%;
+ }
+ .box2 {
+    width: 150px;
+    height: 80px;
+    padding: 30px;
+    box-shadow: 0 0 0 4px darkred;
+    box-sizing: border-box;
+    border-radius: 36%;
+ }

@@ -1,0 +1,67 @@
+*
+{
+    margin-left: 10px;
+}
+p
+{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: brown;
+}
+ul.a 
+{
+    list-style-type: circle;
+}
+
+ul.b 
+{
+    list-style-type: square;
+}
+
+ol.c 
+{
+    list-style-type: upper-roman;
+}
+
+ol.d 
+{
+    list-style-type: lower-alpha;
+}
+ul.image
+{
+    list-style-image: url('Materials/eye-icon.jpg');
+}
+ul.e
+{
+    list-style-position:inside;
+}
+ul.f
+{
+    list-style-position:outside;
+}
+
+ul.g
+{
+    list-style:   url(Materials/smileicon.jpg);
+}
+
+ol.color1
+{
+    background-color: aquamarine;
+    padding: 20px;
+}
+ul.color2
+{
+    background-color: pink;
+    padding: 20px;
+}
+.color1 >li
+{
+    background-color: rgb(223, 145, 145);
+}
+.color2 >li
+{
+    background-color: aqua;
+    margin: 5px;
+}

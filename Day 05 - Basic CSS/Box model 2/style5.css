@@ -1,0 +1,14 @@
+div.box1
+{
+    margin: auto;
+    padding: 70px;
+    width: 80px;
+    box-shadow:  0 0 22px inset indianred;
+    border-radius: 50%;
+ }
+div.box2
+{
+    padding: 10px 30px 70px 50px;
+    border-radius: 10%;
+    box-shadow:  0 0 22px inset seagreen;
+}

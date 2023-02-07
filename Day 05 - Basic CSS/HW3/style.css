@@ -1,0 +1,50 @@
+/* *
+{
+    line-height: 15px;
+} */
+  h1 {
+    color: #000000;
+    margin-bottom: 1px
+  }
+  h2 {
+    color: #000000;
+    margin-bottom: 8px;
+  }
+  h3#Heading {
+    color: #333333;
+    margin-bottom: 1px;
+  }
+  p
+  {
+    margin-top: 1px;
+  }
+hr
+  {
+    margin-top: 1px;
+    margin-bottom: 2px;
+  }
+ul.link-course{
+  margin-top: 10px;
+}
+ul.Dj
+{
+  margin-top: 1px;
+}
+  ul.tour-date{
+    margin-top: 2px;
+  }
+  .Dj>li{
+    line-height: 20px;
+  }
+  .tour-date>li {
+    line-height: 5px;
+  }
+  body {
+  }
+  p {
+    color: #444444;
+  }
+  a {
+    color: #bd0505;
+  }
+  

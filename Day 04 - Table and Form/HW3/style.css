@@ -1,0 +1,65 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div:hover
+{
+    background-color: rgb(255, 248, 215);
+}
+div.box1
+{
+    margin-left: 25px;
+}
+p.question
+{
+    font-weight: bold;
+}
+select
+{
+    width: 300px;
+}
+textarea
+{
+    width: 50%;
+}
+input[type="number"]
+{
+    width: 60px;
+}
+p.dollars
+{
+    margin-left: 15px;
+    display: inline;
+}
+div.cents
+{
+    margin-left: 20px;
+    display: inline;
+}
+table,tr,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th
+{
+    text-align: left;
+    width: 500px;
+    height: 50px;
+}
+td
+{
+    text-align: center;
+    width: 150px;
+}
+tr:nth-child(odd)
+{
+    background-color: rgb(224, 224, 224);
+}
+input[type="submit"]
+{
+    padding : auto 10px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: 0.2px solid;
+}

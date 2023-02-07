@@ -1,0 +1,19 @@
+table, tr , th , td
+{
+    border: 1px solid black;
+    font-family: cursive;
+    padding: 10px;
+    font-size: small;
+}
+table
+{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+th
+{
+    background-color: rgb(252, 55, 55);
+    color: aliceblue;
+}

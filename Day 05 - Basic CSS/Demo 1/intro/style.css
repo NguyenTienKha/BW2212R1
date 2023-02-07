@@ -1,0 +1,55 @@
+body
+{
+    font-family: cursive;
+}
+.heading-text1
+{
+    color: aqua;
+}
+.heading-text2
+{
+    color:brown;
+}
+#fullname
+{
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: bold;
+}
+.first-list>li
+{
+    list-style: square;
+}
+.second-list>li
+{
+    list-style: url('image/icon2.png');
+}
+.third-list>li
+{
+    list-style-type: decimal;
+}
+.container
+{
+    margin: auto;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+#student-list
+{
+    border-spacing: 0;
+    width: 100%;
+}
+#student-list tr td ,th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#student-list tr td:nth-child(odd)
+{
+    background-color: aqua;
+}
+#student-list tr td:nth-child(even)
+{
+    background-color: pink;
+}

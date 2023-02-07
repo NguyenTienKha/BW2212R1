@@ -1,0 +1,40 @@
+html
+{
+    background-color: rgb(255, 230, 234);
+}
+h2
+{
+    text-decoration: underline;
+    color: red;
+}
+fieldset
+{
+    background-color: rgb(255, 240, 221);
+}
+legend
+{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid;
+    background-color: aliceblue;
+}
+table,td,th
+{
+  border: 2px solid black;
+  
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table tr:nth-child(even)
+{
+    background-color: aqua;
+}
+table tr:nth-child(odd)
+{
+    background-color: aliceblue;
+}

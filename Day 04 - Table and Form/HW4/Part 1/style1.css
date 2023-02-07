@@ -1,0 +1,50 @@
+
+*
+{
+    font-family: cursive;
+}
+table
+{
+    border: 2px solid black;
+    background-color: rgb(255, 185, 56);
+    border-collapse: collapse;
+}
+tr
+{
+    height: 100px;
+}
+/* td
+{
+    width: 60px;
+    height: 70px;
+} */
+td.col
+{
+    text-align: center;
+    font-weight: bold;
+}
+td.row
+{
+    text-align: center;
+    font-weight: bold;
+}
+td.chess
+{
+    background-color: aliceblue;
+}
+td.chessA:nth-child(even)
+{
+    background-color: black;
+}
+td.chessB:nth-child(odd)
+{
+    background-color: black;
+}
+td.chessC:nth-child(even)
+{
+    background-color: black;
+}
+td.chessD:nth-child(odd)
+{
+    background-color: black;
+}

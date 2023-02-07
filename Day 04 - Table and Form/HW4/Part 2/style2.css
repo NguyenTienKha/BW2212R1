@@ -1,0 +1,60 @@
+html
+{
+    font-family: cursive;
+}
+h2
+{
+    margin-left:250px
+}
+table,tr,td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+h2
+{
+    color: blue;
+}
+td
+{
+    text-align: center;
+    width: 100px;
+}
+tr.row2 td 
+{
+    border:white;
+}
+td.sun
+{
+    background-color: red;
+    color: aliceblue;
+}
+td.normal
+{
+    background-color: orange;
+    color: aliceblue;
+}
+td.sat
+{
+    background-color: blue;
+    color: aliceblue;
+}
+td.day1
+{
+    color: red;
+}
+td.day3
+{
+    color:blue ;
+}
+td.col1
+{
+    color: red;
+}
+sub{
+    color: black;
+}
+td.col7
+{
+    color:blue;
+}

@@ -1,0 +1,76 @@
+h2
+{
+    text-decoration: underline;
+    color: brown;
+    font-family: cursive;
+}
+table, th, td 
+{
+    border: 1px solid black;
+}
+
+table.t2 
+{
+
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table.t3 
+{
+
+    border-collapse: collapse;
+    width: 100%;
+}
+th 
+{
+    height: 50px;
+}
+.t4
+{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.t5
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.t5 td {
+    height: 50px;
+    vertical-align:bottom;
+}
+
+.t6
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+.t6 td
+{
+    padding: 15px;
+}
+
+.t7
+{
+    border-collapse: collapse;
+    width: 100%;
+ }
+ th.heading
+ {
+    background-color: #4CAF50;
+    color: white;
+    padding:8px;
+ }
+ .bang7
+ {
+    padding:8px
+ }
+
+ .bang7:nth-child(even)
+{
+    background-color: rgb(216, 216, 216);
+}
