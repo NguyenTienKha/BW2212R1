@@ -1,0 +1,145 @@
+
+body
+{
+    font-family: cursive;
+}
+div#web
+{
+    background-color: rgb(199, 199, 199);
+    width: 50%;
+    
+    box-sizing: border-box;
+    margin: auto;
+    border: 2px solid rgb(183, 183, 183);
+}
+#heading
+{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(28, 86, 173);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:auto;  
+}
+#search
+{
+    width: 70%;
+    height: 20px;
+    background-color: rgb(35, 87, 133);
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.search-text
+{
+    font-size: 10px;
+    color: rgb(222, 224, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.search-text:hover
+{
+    cursor: pointer;
+}
+.icon-plane,.icon-mess
+{
+    color: aliceblue;
+}
+div#main 
+{
+    background-color: white;
+}
+
+div.content
+{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    line-height: 8px;
+}
+div#user
+{
+    margin-left:45px;
+}
+p.user
+{
+    font-weight: bold;
+}
+p.time
+{
+    opacity: 0.6;
+}
+div#avatar-FB
+{
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    transform: translateY(-50%);
+    top:50%
+}
+img.avatar
+{
+    width: 100%;
+    height: 100%;
+    margin-left:15px;
+}
+#user
+{
+    font-size: 45%;
+    position: relative;
+    top:50%;
+    margin-left: 40px;
+}
+i.fa-ellipsis
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+    margin-left:15px;
+    margin-right:2%;
+}
+.img-FB
+{
+    width: 100%;
+}
+.emoji
+{
+    font-size: 9px;
+}
+.fa-face-smile
+{
+    margin-left:2%;
+    color:yellow;
+}
+.fa-heart
+{
+    color: rgb(248, 21, 55);
+}
+.cmt
+{
+    float: right;
+    margin-right: 2%;
+}
+div.choice
+{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.op1,.op2,.op3
+{
+    padding-top:2px;
+    padding-bottom:5px;
+}
+
