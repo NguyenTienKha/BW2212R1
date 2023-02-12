@@ -1,0 +1,91 @@
+body
+{
+    margin:0;
+    background-color: rgb(250, 250, 250);
+}
+div.heading
+{
+    font-family: cursive;
+    background-color: rgb(218, 216, 216);
+    padding-block: 7px;
+}
+
+i.head-text2
+{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 7px;
+}
+div.nav
+{
+    margin-block:5px;
+    width: 100%;
+    height: 20px;
+    background-color:  rgb(218, 216, 216);
+}
+div.box-nav
+{
+    text-align: center;
+}
+.box-nav a 
+{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+.box-nav a:hover
+{
+    color:blueviolet;
+}
+main
+{
+    height: 85%;
+    display: flex;
+}
+div.box-content1
+{
+    padding: 5px;
+    margin-left: 10px;
+    background-color:rgb(235, 235, 235);
+}
+div.title-video
+{
+    font-size: 10px;
+    line-height: 5px;
+}
+.title1
+{
+    width:fit-content ;
+    font-weight: bold;
+}
+div.title-video >iframe
+{
+    width: 100%;
+}
+div.box-content2
+{
+    width: 100%;
+    margin-inline:10px;
+    background-color:rgb(235, 235, 235);
+    padding: 5px;
+}
+div.box-content2>iframe
+{
+    
+    width: 100%;
+    height: 320px;
+}
+footer
+{
+    margin-top: 7px;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+footer p
+{
+    margin-block: 5px;
+}
