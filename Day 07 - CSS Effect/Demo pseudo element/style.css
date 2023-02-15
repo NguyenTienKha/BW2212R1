@@ -1,0 +1,25 @@
+p::first-line
+{
+    text-decoration: underline;
+}
+p::first-letter
+{
+    text-transform: uppercase;
+}
+
+ul li::marker
+{
+    color:blue;
+}
+h3.para1::before
+{
+    content: 'Start para - ';
+}
+h3.para2::after
+{
+    content: ' - End para';
+    border: 2px solid black;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background-color: green;
+}

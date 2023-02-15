@@ -1,0 +1,22 @@
+div.box
+{
+    width: 50px;
+    height: 50px;
+    margin:  200px auto;
+    background-color: lime;
+    animation: action infinite ease 2S alternate;
+}
+@keyframes action {
+    0%{
+        transform: scale(0.2);
+        background-color: red;
+        border-radius: 100%;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        transform: scale(5.0);
+        background-color: yellow;
+    }
+}

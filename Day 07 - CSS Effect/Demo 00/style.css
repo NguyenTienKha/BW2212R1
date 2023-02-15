@@ -1,0 +1,19 @@
+
+div.background {
+   background-image: url("material/background.jpg");
+    border: 2px solid black;
+}
+div.transbox
+{
+    margin: 30px;
+    background-color: #b8fabd;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+p
+{
+    margin: 50px;
+  font-weight: bold;
+  color: #db0000;
+  text-align: center;
+}

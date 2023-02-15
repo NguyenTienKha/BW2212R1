@@ -1,0 +1,51 @@
+a
+{
+    text-decoration: none;
+    display: block;
+    font-size: 100px;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+li:first-child
+{
+    color :red;
+}
+li:last-child
+{
+    color:blue;
+}
+
+/* Pseudo - class cho input */
+input:focus
+{
+    background-color: rgb(223, 173, 173);
+    color: aliceblue;
+}
+input:checked
+{
+    width:35px;
+    height:35px;
+}
+input:required
+{
+    color:rgb(92, 94, 218);
+    background-color: aqua;
+}
