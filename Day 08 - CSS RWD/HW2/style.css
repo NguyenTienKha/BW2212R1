@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+h1,h2,div.content{
+    margin-top: 20px;
+    margin-left: 16px;
+}
+div.box-image{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box1,.box2,.box3,.box4{
+    width: 23%;
+    /* max-width: 240px; */
+    border:1px solid grey;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+
+@media (max-width: 700px) {
+  .box1, .box2,.box3,.box4{
+    width: 48%;
+  }
+}
+
+@media(max-width:500px){
+  .box-image{
+    flex-direction: column;
+  }
+  .box1, .box2,.box3,.box4{
+    width: 100%;
+  }
+}
+
