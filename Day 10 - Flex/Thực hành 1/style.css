@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+div.Geeks{
+    display: flex;
+    width: 385px;
+	height: 70px;
+    margin: auto;
+}
+.item1 {
+    flex-basis: 80px;
+}
+.item2{
+    flex-basis: 50%;
+}
+.item3{
+    flex-basis: auto;
+}
+.item4{
+    flex-basis: initial;
+}
+.item5{
+    flex-basis: inherit;
+}

@@ -90,7 +90,7 @@ i{
     margin-right:15px;
 } 
 
-@media (max-width:768px) {
+@media (max-width:800px) {
 
     .web{
         flex-direction: column;
@@ -109,4 +109,6 @@ i{
         width: 100vw;
     }
 }
+
+
 

@@ -1,0 +1,365 @@
+body{
+    
+    margin: 0;
+    font-family: cursive;
+    background-color: rgba(243, 243, 243, 0.616);
+}
+div.container{
+    background-image: url('Material/gundam-bg.jpg');
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:  0px 0px 20px black inset;
+}
+i.fa-bars{
+    font-size: larger;
+    display: none;
+    padding: 20px;
+    margin-right: 20px;
+    margin-block: auto;
+    background-color: #cdedf16c;
+    border-radius: 10px;
+}
+div.box-menu{
+    height: 60px;
+    background-color: rgba(226, 226, 226, 0.308);
+    display: flex;
+    color:white;
+}
+.box-option-menu{
+    width: 70%;
+    display:flex ;
+}
+ul.list-button{
+    display: flex;
+}
+.box-sign-in{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.sign-in{
+    width: 100px;
+    font-size: 100%;
+    border-radius: 10px;
+    padding-block: 10px;
+    margin-block: auto;
+    background-color: #00B4CC;
+    color: white;
+    cursor: pointer;
+}
+.sign-in:hover{
+    opacity: 0.5;
+}
+.box2{
+    margin-left: 10%;
+    padding-top: 20%;
+}
+.option-menu{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    position: relative;
+}
+ul.list-store{
+    list-style-type: none;
+    background-color: #00B4CC;
+    padding: 0;
+}
+.option-menu ul.list-store{
+    position: absolute;
+    top:100%;
+    margin-block:0;
+    width: 100%;
+    visibility:hidden;
+    transition-delay: 0.1s;
+    transition-duration:0.1s ;
+}
+.option-menu ul.list-store li{
+    padding-block: 10px;
+    padding-left: 25px;
+}
+.option-menu ul.list-store:hover li{
+    display: block;
+}
+.option-menu ul.list-store a{
+    text-decoration: none;
+}
+.option-menu ul.list-store li:hover{
+    opacity: 0.3;
+    color:black;
+    background-color: aquamarine;
+}
+.option-menu:hover{
+    transition-timing-function: linear;
+    background-color: rgb(184, 222, 253);
+    cursor: pointer;
+    transition: 0.5s;
+    width: 50%;
+}
+.option-menu:hover ul.list-store {
+    visibility: visible;
+}
+.searchTerm {
+    width:35%;
+    border: 5px solid #cc0033;
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 15px;
+    color: black;
+    font-size: 20px;
+    background-color: #bdf7ff;
+}
+.searchButton {
+    width:fit-content;
+    height: 45px;
+    border: 2px solid yellow;
+    background:yellow;
+    font-family: cursive;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* main */
+.wrap-content{
+}
+.head-contain{
+    text-align: center;
+}
+h2#best-seller{
+    text-align:center;
+    color:rgb(71, 71, 71);
+    font-size: 50px;
+    margin-left: 50px;
+}
+.box-head-contain{
+    background-image: url('Material/gundam-bg2.jpg');
+    background-size: 100%;
+    height: 1000px;
+    padding: 30px;
+}
+.demo-suit{
+    /* background-image: url('Material/gundam-bg2.jpg');
+    background-size: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    /* height: min-content; */
+}
+.suit{
+    width: 25%;
+    height: 100px;
+}
+.suit-1{
+    width: 100%;
+}
+.suit-1:hover{
+    transform: scale(1.1);
+}
+.price{
+    font-size: larger;
+}
+.story-history{
+    background-image: url(Material/gundam-bg3.jpg);
+    background-repeat: no-repeat;
+    height: fit-content;
+    padding: 10px;
+    background-size:100%;
+    box-shadow:  0px 0px 60px rgba(171, 163, 163, 0.674) inset;
+}
+.wrap-box-story{
+    padding:30px
+}
+p.tieu-su-para{
+    background-color: rgba(187, 187, 187, 0.288);
+    width:50%;
+    margin-left: 100px;
+    padding:10px;
+    font-size: larger;
+    text-align:justify;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 200px;
+    margin-block: 5%;
+}
+.story-history >p:hover{
+    transform: scale(1.1);
+}
+.box-size-gundam{
+    background-image: url('Material/gundam-bg4.jpg');
+    background-size: 100%;
+    height: auto;
+    padding:20px;
+}
+.find-more:hover{
+    cursor: pointer;
+}
+.size-gd{
+    width: 40%;
+}
+b {
+    color:#cc0033;
+}
+.box-comment{
+    width: 100%;
+}
+.cmt{
+    width: 100%;
+    margin-inline: 50px;
+    line-height: 50px;
+    grid-gap: 25px 0;
+}
+.comment-boxes{
+    padding-block: 6%;
+    width: 100%;
+}
+.comment-boxes h2{
+    margin-left: 50px;
+}
+.name-email{
+    margin-bottom: 10px;
+}
+#full-name{
+    width: 400px;
+    height: 50px;
+}
+#email{
+    width: 400px;
+    height: 50px;
+}
+#comment{
+    width: 814px;
+}
+#submit1{
+    grid-area:submit;
+    background-color: rgb(26, 159, 248);
+    color:red;
+    border: 1px solid yellow;
+    border-radius: 12px;
+    height: 200%;
+    font-size: 110%;font-weight: bolder;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    width: 100%;
+    color:aliceblue
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+}
+.brands{
+    width: 100%;
+}
+
+/* Chỉnh khung theo từng màn hình */
+
+/* Tablet */
+@media (max-width:785px){
+    div.container{
+        height: 400px;
+    }
+    .box-sign-in{
+        position: relative;
+    }
+    ul.list-button{
+        position: absolute;
+        top:100%;
+        margin: 0;
+        display: none;
+    }
+    i.fa-bars{
+        display: block;
+    }
+    i.fa-bars:hover + ul.list-button  {
+        display: block;     
+        visibility: visible;
+    }
+    h2#best-seller{
+        font-size: 30px;
+    }
+    div.box-head-contain{
+        padding: 10px;
+    }
+    div.demo-suit{
+        display: block;
+    }
+    div.suit{
+        display: flex;
+        width: fit-content; 
+        margin-bottom: 100px;
+    }
+    img.suit-1{
+        margin-left: 15px;
+        width: 40%;
+        height: fit-content;
+    }
+    div.box-infor{
+        height: fit-content;
+        width: 40%;
+    }
+    p.price{
+        height: 10%;
+        width: 100%;
+    }
+    p.infor-item{
+        display: none;
+    }
+    h2.tieu-su{
+        text-align: center;
+        padding: 5px 0 5px 0;
+        margin:0;
+    }
+    p.tieu-su-para{
+        font-size:small;
+        width: 80%;
+        padding:0;
+        margin: auto;
+    }
+    div.story-history{
+        background-image: none;
+    }
+    .comment-boxes h2{
+        margin-left: 50px;
+    }
+    .name-email{
+        margin-bottom: 10px;
+    }
+    #full-name{
+        width: 200px;
+        height: 50px;
+    }
+    #email{
+        width: 200px;
+        height: 50px;
+    }
+    #comment{
+        width: 414px;
+    }
+    button#submit1{
+        width: 200px;
+    }
+    div.box-footer{
+        padding:0 50px;
+    }
+    .box-footer-1,.brand{
+        width: 40%;
+    }
+    .box-footer h2{
+        font-size: medium;
+    }
+}
+
+/* Phone */
+@media (max-width:550px){
+
+}
+
