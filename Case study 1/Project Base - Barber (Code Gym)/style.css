@@ -165,6 +165,7 @@ i.icon{
 }
 .text-reason{
     font-weight: 600;
+    text-align: justify;
 }
 
 /* --Services-- */
@@ -251,7 +252,7 @@ hr{
 .wrap-feedback{
     display: flex;
     justify-content: space-between;
-    margin-inline: 300px;
+    margin-inline: 100px;
     margin-bottom: 100px;
 }
 .client-feedback{
@@ -263,11 +264,15 @@ hr{
 .infor-client{
     display: flex;
     margin-block: 20px;
+    height: 30%;
 }
 img.client{
     width:30%;
-    height: 30%;
+    height: 100%;
     margin-right: 15px;
+}
+.name-twitter{
+    height: 100%;
 }
 .name{
     text-transform: uppercase;
@@ -327,4 +332,38 @@ h3.box-infor{
 }
 p.last-para{
     margin-bottom:20px;
+}
+
+
+@media (max-width: 1000px)
+{
+    /* features */
+    .image-reason-box{
+        display: none;
+    }
+    .box-content-features{
+        padding:20px 80px;
+    }
+    .main-reason{
+        width: 100%;
+        padding:70px;
+    }
+
+    /*testimonial */
+    .wrap-feedback{
+        flex-direction: column;
+    }
+    .client-feedback{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .infor-client{
+        height: 50px;
+        width: 270px;
+    }
+
+    /* contact */
+    #footer{
+        padding-inline:50px;
+    }
 }
