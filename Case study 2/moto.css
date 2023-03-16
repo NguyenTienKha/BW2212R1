@@ -1,0 +1,51 @@
+:root{
+    margin:0;
+    --orange-color:#fa6600;
+}
+
+/* Header */
+
+/* menu-top */
+.menu-top,.menu-middle,.menu-bottom{
+    padding-inline:5%;
+    padding-block:1%;
+}
+.order-item,.list-language{
+    color:white;
+}
+.order-item{
+    margin-inline: 30px;
+}
+.list-order-option{
+    font-size: small;
+}
+
+/* menu-middle */
+.box-search{
+    margin-block:auto;
+}
+.menu-option{
+    margin-inline:10px;
+}
+.box-search,.sign-in,.cart{
+    margin-inline: 11px;
+}
+
+/* menu-bottom */
+#carouselExampleInterval{
+    width: 100%;
+    background-color: var(--orange-color);
+    padding-block:10px;
+}
+.carousel-item p{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+/* Main */
+
+/* Page-one */
+.page-one{
+    background-image: url('Materials/images/bg-tall-hero.jpg');
+    height: 100%;
+}
