@@ -3,6 +3,7 @@
     --orange-color:#fa6600;
     --grey-color:#eeeceb;
 }
+
 /* Header */
 
 /* menu-top */
@@ -23,6 +24,12 @@
 /* menu-middle */
 .box-search{
     margin-block:auto;
+}
+.search{
+    border: 1px solid black;
+}
+.search-target{
+    width: 80%;
 }
 .menu-option{
     margin-inline:10px;
@@ -82,6 +89,9 @@
 .offcanvas-menu-title{
     width: fit-content;
 }
+.box-menu__three{
+    width: fit-content;
+}
 /* menu-bottom */
 #carouselExampleInterval{
     width: 100%;
@@ -94,88 +104,67 @@
 }
 
 /* Main */
-
-/* Page-one */
-.tall-hero__text-wrapper{
+/* page-one */
+.harley-museum__wrapper{
     top:15%;
     left:8%;
+    width: fit-content;
+    color:white;
 }
-/* Page-two */
-.page-two__wrapper-menu{
-    padding: 2rem;
+.title-museum{
+    color:var(--orange-color);
 }
-.menu-two_item{
-    padding-inline:1rem;
-}
-.box-media-teaser{
-    padding-inline:2%;
-}
-.media-card__wrapper{
-    padding:3rem;
-}
-.text-infor-fes{
-    width: 40%;
-    height:100%;
-}
-.fes{
-    width: 60%;
-}
-h2.fw-bold{
-    font-size:100%;
-}
-.link-fes{
-    color:black;
-}
-.box-media-teaser:nth-child(3),.box-media-teaser:nth-child(4){
+/* page-one */
+.title-tour{
     background-color: var(--grey-color);
 }
-.search{
-    border: 1px solid black;
+.link-infor-tour{
+    color:black;
 }
-.search-target{
-    width: 80%;
+.audio-tour,.introduce-tour{
+    width: fit-content;
+    width: 45%;
 }
-/* Page-three */
+img{
+    width: 100%;
+}
+p.explore-tour__text{
+    width: 100%;
+}
+/* page-two */
+.overview-tour,.explore-tour{
+    padding-inline:5%;
+}
+.link_pdf{
+    color:black;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-text{
+    flex:1;
+}
+.card-img-top {
+    width: 100%;
+}
+.card-title {
+    width: 100%;
+}
+/* page-three */
+.page-three{
+    background-color: var(--grey-color);
+    padding-inline:15%;
+}
+.link__gmail{
+    color:black
+}
+/* page-four */
+.btn-pass{
+    background-color: var(--orange-color);
+    color:white;
+}
 
-/* Page-four */
-.page-four{
-    padding-inline : 6%;
-}
-.page-four h1{
-    padding-block: 2rem;
-}
-.shop-men,.shop-women{
-    width: 48%;
-}
-.shop-men__img,.shop-women__img{
-    width: 100%;
-}
-/* Page-five */
-.page-five__box-top{
-    padding-inline : 6%;
-    padding-block:2rem;
-}
-.adventure-img{
-    width:fit-content;
-}
-.adventure-img{
-    width: 100%;
-}
-.btn-touch{
-    white-space: nowrap;
-}
-/* Page-six */
-.page-six{
-    padding-inline : 6%;
-}
-.page-six h1{
-    padding-block:2rem;
-}
-.card{
-    width: 32%;
-}
-.box-shop__wrapper{
-}
 /* Footer */
 
 .footer-panel{
@@ -188,20 +177,11 @@ h2.fw-bold{
 .last-link{
     font-size: larger;
 }
-.news{
-    white-space: nowrap;
-}
-.news>p{
-    color:var(--orange-color);
-}
 .btn-email{
     background-color: var(--orange-color);
     color: white;
     font-size: larger;
-    white-space: nowrap;
 }
-
-
 /* panel-2 */
 .group-title-panel{
     padding-top:2rem;
@@ -245,12 +225,3 @@ div.col-md-4{
 .icon-social{
     font-size: 2rem;
 }
-
-
-@media (max-width:992px) {
-    .fes,.text-infor-fes{
-        width: 100%;
-        display: block;
-    }
-}
-
