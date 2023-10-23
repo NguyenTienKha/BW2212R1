@@ -177,11 +177,20 @@ p.explore-tour__text{
 .last-link{
     font-size: larger;
 }
+.news{
+    white-space: nowrap;
+}
+.news>p{
+    color:var(--orange-color);
+}
 .btn-email{
     background-color: var(--orange-color);
     color: white;
     font-size: larger;
+    white-space: nowrap;
 }
+
+
 /* panel-2 */
 .group-title-panel{
     padding-top:2rem;

@@ -2,929 +2,1016 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning</title>
-    <link rel="stylesheet" href="learning.css">
-    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
-    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learning</title>
+	<link rel="stylesheet" href="learning.css">
+	<link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+	<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+	<script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="container-header d-flex flex-column">
-            <div class="menu-top bg-dark">
-                <ul class="list-order-option m-0 d-sm-flex list-unstyled position-relative float-end d-none">
-                    <li class="order-item">Dealer Locator</li>
-                    <li class="order-item">Test Ride</li>
-                    <li class="order-item">Track Order</li>
-                    <li class="order-item" style="width:fit-content">
-                        <select name="List-languege" id="list-language" class="list-language bg-dark border-0">
-                            <option value="Vietnam">Vietnam - Vietnamese</option>
-                            <option value="Vietnam">English - Vietnamese</option>
-                            <option value="Vietnam">Vietnam - Vietnamese</option>
-                        </select>
-                    </li>
-                </ul>
-            </div>
-            <nav class="menu-middle d-md-flex align-items-center justify-content-between">
-                <ul class="box-menu__two list-unstyled d-flex  m-0 align-items-center fw-bold">
-                    <a href="#" class="">
-                        <img src="Materials/images/logo.png" alt="logo" class="img-logo">
-                    </a>
-                    <div class=" menu-middle__option d-lg-flex align-items-center d-none">
-                        <li class="menu-option position-relative"><a href="./products.html"
-                                class=" text-decoration-none title-menu-middle p-0" style="color:black">BIKES</a>
-                            <ul class="list-bike__menu list-unstyled position-absolute p-3">
-                                <li class="item-menu__bike">NEW MOTORCYCLES</li>
-                                <li class="item-menu__bike">USED MOTORCYCLES</li>
-                                <li class="item-menu__bike">MOTORCYCLE COLLECTIONS</li>
-                                <li class="item-menu__bike">ELECTRIC VEHICLES</li>
-                                <hr>
-                                <li class="item-menu__bike">SHOP ALL BIKES <i class="fa-solid fa-arrow-right"></i></li>
-                            </ul>
-                        </li>
-                        <li class="menu-option"><a href="#" class="text-decoration-none title-menu-middle p-0"
-                                style="color:black">PARTS</a>
-                            <ul class="list-bike__menu list-unstyled position-absolute p-3 fw-normal">
-                                <li class="item-menu__bike">Accessory Packages</li>
-                                <li class="item-menu__bike">Audio & Electronics</li>
-                                <li class="item-menu__bike">Bags, Luggage & Racks</li>
-                                <li class="item-menu__bike">Brakes & Suspension</li>
-                                <li class="item-menu__bike">Custom Accessories & Trim</li>
-                                <li class="item-menu__bike">Electrical & Batteries</li>
-                                <hr>
-                                <li class="item-menu__bike fw-bold">Shop all parts <i
-                                        class="fa-solid fa-arrow-right"></i>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-option"><a href="#" class="text-decoration-none title-menu-middle p-0"
-                                style="color:black">MENS</a>
-                            <ul class="list-bike__menu list-unstyled position-absolute p-3  fw-normal">
-                                <div class="d-flex">
-                                    <div class="me-5">
-                                        <li class="item-menu__bike">Jackets & Vests</li>
-                                        <li class="item-menu__bike">Helmets</li>
-                                        <li class="item-menu__bike">Boots & Shoes</li>
-                                        <li class="item-menu__bike">Gloves</li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike">Rain Gear</li>
-                                        <li class="item-menu__bike">T-Shirts & Polos</li>
-                                        <li class="item-menu__bike">Sweatshirts & Hoodies</li>
-                                        <li class="item-menu__bike">Jeans & Pants</li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike fw-normal">Performance</li>
-                                        <li class="item-menu__bike fw-normal">Hats & Caps</li>
-                                        <hr>
-                                        <li class="item-menu__bike fw-bold">Shop all mens <i
-                                                class="fa-solid fa-arrow-right"></i></li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike fw-bold">New Arrivals</li>
-                                        <li class="item-menu__bike fw-bold">120th Anniversary</li>
-                                        <li class="item-menu__bike fw-bold">Last chance deals</li>
-                                        <li class="item-menu__bike fw-bold">Museum</li>
-                                        <li class="item-menu__bike fw-bold">Best Sellers</li>
-                                    </div>
-                                </div>
-                            </ul>
-                        </li>
-                        <li class="menu-option"><a href="#" class="text-decoration-none title-menu-middle p-0"
-                                style="color:black">WOMENS</a>
-                            <ul class="list-bike__menu list-unstyled position-absolute p-3  fw-normal">
-                                <div class="d-flex">
-                                    <div class="me-5">
-                                        <li class="item-menu__bike">Jackets & Vests</li>
-                                        <li class="item-menu__bike">Helmets</li>
-                                        <li class="item-menu__bike">Boots & Shoes</li>
-                                        <li class="item-menu__bike">Gloves</li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike">Rain Gear</li>
-                                        <li class="item-menu__bike">T-Shirts & Polos</li>
-                                        <li class="item-menu__bike">Sweatshirts & Hoodies</li>
-                                        <li class="item-menu__bike">Jeans & Pants</li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike fw-normal">Performance</li>
-                                        <li class="item-menu__bike fw-normal">Hats & Caps</li>
-                                        <hr>
-                                        <li class="item-menu__bike fw-bold">Shop all womens <i
-                                                class="fa-solid fa-arrow-right"></i></li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike fw-bold">New Arrivals</li>
-                                        <li class="item-menu__bike fw-bold">120th Anniversary</li>
-                                        <li class="item-menu__bike fw-bold">Last chance deals</li>
-                                        <li class="item-menu__bike fw-bold">Museum</li>
-                                        <li class="item-menu__bike fw-bold">Best Sellers</li>
-                                    </div>
-                                </div>
-                            </ul>
-                        </li>
-                        <li class="menu-option"><a href="#" class="text-decoration-none title-menu-middle p-0"
-                                style="color:black">GOODS &
-                                GIFTS</a>
-                            <ul class="list-bike__menu list-unstyled position-absolute p-3  fw-normal">
-                                <div class="d-flex">
-                                    <div class="me-5">
-                                        <li class="item-menu__bike">Home Décor</li>
-                                        <li class="item-menu__bike">Coffee Mugs for Motorcycle Enthusiasts</li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike">Drinkware</li>
-                                        <li class="item-menu__bike">Gifts For The Home</li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike fw-normal">Barware & Décor</li>
-                                        <hr>
-                                        <li class="item-menu__bike fw-bold">Shop All Goods & Gifts <i
-                                                class="fa-solid fa-arrow-right"></i></li>
-                                    </div>
-                                    <div class="me-5">
-                                        <li class="item-menu__bike fw-bold">New Arrivals</li>
-                                    </div>
-                                </div>
-                            </ul>
-                        </li>
-                        <li class="menu-option"><a href="#" class="text-decoration-none title-menu-middle p-0"
-                                style="color:black">EXPERIENCE
-                                H-D</a>
-                            <ul class="list-bike__menu list-unstyled position-absolute p-3">
-                                <li class="item-menu__bike">EVENTS</li>
-                                <li class="item-menu__bike">FACTORY TOURS</li>
-                                <li class="item-menu__bike">HARLEY OWNERS GROUP</li>
-                                <li class="item-menu__bike">H.D APP</li>
-                                <hr>
-                                <li class="item-menu__bike">ALL EXPERIENCE <i class="fa-solid fa-arrow-right"></i></li>
-                            </ul>
-                        </li>
-                    </div>
-                </ul>
-                <a class="btn bg-white fw-bold d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample"
-                    role="button" aria-controls="offcanvasExample">
-                    MENU
-                </a>
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                    aria-labelledby="offcanvasExampleLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"> MENU </h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="fw-bold list-unstyled">
-                            <li class="offcanvas-menu-title mb-2 ms-4 position-relative"><a href="./products.html"
-                                    class="text-decoration-none">BIKES</a>
-                                <ul
-                                    class="list-bike__menu-right list-unstyled position-absolute  fw-normal bg-white ps-3">
-                                    <li class="item-menu__bike"><a href="#" class="text-decoration-none">Accessory
-                                            Packages</a></li>
-                                    <li class="item-menu__bike"><a href="#" class="text-decoration-none">Audio &
-                                            Electronics</a></li>
-                                    <li class="item-menu__bike"><a href="#" class="text-decoration-none">Bags, Luggage &
-                                            Racks</a></li>
-                                    <li class="item-menu__bike"><a href="#" class="text-decoration-none">Brakes &
-                                            Suspension</a></li>
-                                    <li class="item-menu__bike"><a href="#" class="text-decoration-none">Custom
-                                            Accessories & Trim</a></li>
-                                    <li class="item-menu__bike"><a href="#" class="text-decoration-none">Electrical &
-                                            Batteries</a></li>
-                                    <hr>
-                                    <li class="item-menu__bike fw-bold">Shop all parts <i
-                                            class="fa-solid fa-arrow-right"></i>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="offcanvas-menu-title mb-2 ms-4"><a href="#"
-                                    class="text-decoration-none">PARTS</a></li>
-                            <li class="offcanvas-menu-title mb-2 ms-4"><a href="#" class="text-decoration-none">MENS</a>
-                            </li>
-                            <li class="offcanvas-menu-title mb-2 ms-4"><a href="#"
-                                    class="text-decoration-none">WOMENS</a></li>
-                            <li class="offcanvas-menu-title mb-2 ms-4"><a href="#" class="text-decoration-none">GOOD &
-                                    GIFTS</a></li>
-                            <li class="offcanvas-menu-title mb-2 ms-4"><a href="#"
-                                    class="text-decoration-none">EXPERIENCE H-D</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <ul class="box-menu__three list-unstyled d-md-flex m-0 align-items-center">
-                    <li class="box-search col-12 col-md-6">
-                        <form action="#" get style="padding: 5px" class="search d-flex border-1">
-                            <button class="border-0 bg-white"><i class="fa-solid fa-motorcycle"></i></button>
-                            <input type="text" class="search-target border-0">
-                        </form>
-                    </li>
-                    <div class="d-flex align-items-center">
-                        <li class="sign-in">
-                            <form action="#">
-                                <button class="btn btn-sign-in" type="button" data-bs-toggle="offcanvas"
-                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                                    <div style="text-align: center;"><i class="fa-solid fa-user-large"></i></div>
-                                    <p class="m-0 d-none d-lg-block" style="white-space:nowrap">Sign in</p>
-                                </button>
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                                    aria-labelledby="offcanvasRightLabel">
-                                    <div class="m-5">
-                                        <div class="offcanvas-header">
-                                            <h5 id="offcanvasRightLabel" class="fw-bold">SIGN IN</h5>
-                                            <button type="button" class="btn-close text-reset"
-                                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>
-                                        <div class="offcanvas-body">
-                                            <div class="form-floating mb-3">
-                                                <input type="email" class="form-control" id="floatingInput"
-                                                    placeholder="name@example.com" required>
-                                                <label for="floatingInput">Email*</label>
-                                            </div>
-                                            <div class="form-floating">
-                                                <input type="password" class="form-control" id="floatingPassword"
-                                                    placeholder="Password" required>
-                                                <label for="floatingPassword">Password*</label>
-                                            </div>
-                                            <div><a href="#" class="" style="color:black">Forgot password</a></div>
-                                            <div class="mb-2">By logging in, you agree to the <a href="#"
-                                                    style="color:black">terms of use</a> and
-                                                <a href="#" style="color:black">privacy_policy</a>.
-                                            </div>
-                                            <button class="btn-sign-in border-0 p-2 fw-bold">SIGN IN</button>
-                                            <hr>
-                                            <div class="fw-bold">Create Account <i class="fa-solid fa-arrow-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </li>
-                        <li class="cart">
-                            <button class="btn btn-cart" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasRight-cart" aria-controls="offcanvasRight-cart">
-                                <div style="text-align:center"><i class="fa-solid fa-basket-shopping"></i></div>
-                                <p class="m-0 d-none d-lg-block">Cart(0)</p>
-                            </button>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-cart"
-                                aria-labelledby="offcanvasRightLabel">
-                                <div class="m-5">
-                                    <div class="offcanvas-header">
-                                        <h5 id="offcanvasRightLabel" class="fw-bold">Your Cart</h5>
-                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="offcanvas-body">
-                                        <p>0 Item(s)</p>
-                                        <p>Your cart is currently empty.</p>
-                                        <div class="ctn-shopping fw-bold">CONTINUE SHOPPING</d>
-                                        </div>
-                                    </div>
-                                </div>
-                        </li>
-                        </di>
-                </ul>
-            </nav>
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <p class="text-center" style="margin-block:auto;color:white">Free Shipping with £50
-                            Purchase &
-                            Free Returns</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="text-center" style="margin-block:auto;color:white">A celebration 120 years
-                            in the
-                            making. <a href="#" style="color:white">Watch now</a></p>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true">
-                    </span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </header>
+	<header>
+		<div class="container-header d-flex flex-column">
+			<div class="menu-top bg-dark">
+				<ul class="list-order-option m-0 d-sm-flex list-unstyled position-relative float-end d-none">
+					<li class="order-item">Dealer Locator</li>
+					<li class="order-item">Test Ride</li>
+					<li class="order-item">Track Order</li>
+					<li class="order-item" style="width:fit-content">
+						<select name="List-languege" id="list-language"
+							class="list-language bg-dark border-0">
+							<option value="Vietnam">Vietnam - Vietnamese</option>
+							<option value="Vietnam">English - Vietnamese</option>
+							<option value="Vietnam">Vietnam - Vietnamese</option>
+						</select>
+					</li>
+				</ul>
+			</div>
+			<nav class="menu-middle d-md-flex align-items-center justify-content-between">
+				<ul class="box-menu__two list-unstyled d-flex  m-0 align-items-center fw-bold">
+					<a href="#" class="">
+						<img src="Materials/images/logo.png" alt="logo" class="img-logo">
+					</a>
+					<div class=" menu-middle__option d-lg-flex align-items-center d-none">
+						<li class="menu-option position-relative"><a href="./products.html"
+								class=" text-decoration-none title-menu-middle p-0"
+								style="color:black">BIKES</a>
+							<ul class="list-bike__menu list-unstyled position-absolute p-3">
+								<li class="item-menu__bike">NEW MOTORCYCLES</li>
+								<li class="item-menu__bike">USED MOTORCYCLES</li>
+								<li class="item-menu__bike">MOTORCYCLE COLLECTIONS</li>
+								<li class="item-menu__bike">ELECTRIC VEHICLES</li>
+								<hr>
+								<li class="item-menu__bike">SHOP ALL BIKES <i
+										class="fa-solid fa-arrow-right"></i></li>
+							</ul>
+						</li>
+						<li class="menu-option"><a href="#"
+								class="text-decoration-none title-menu-middle p-0"
+								style="color:black">PARTS</a>
+							<ul class="list-bike__menu list-unstyled position-absolute p-3 fw-normal">
+								<li class="item-menu__bike">Accessory Packages</li>
+								<li class="item-menu__bike">Audio & Electronics</li>
+								<li class="item-menu__bike">Bags, Luggage & Racks</li>
+								<li class="item-menu__bike">Brakes & Suspension</li>
+								<li class="item-menu__bike">Custom Accessories & Trim</li>
+								<li class="item-menu__bike">Electrical & Batteries</li>
+								<hr>
+								<li class="item-menu__bike fw-bold">Shop all parts <i
+										class="fa-solid fa-arrow-right"></i>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-option"><a href="#"
+								class="text-decoration-none title-menu-middle p-0"
+								style="color:black">MENS</a>
+							<ul class="list-bike__menu list-unstyled position-absolute p-3  fw-normal">
+								<div class="d-flex">
+									<div class="me-5">
+										<li class="item-menu__bike">Jackets & Vests</li>
+										<li class="item-menu__bike">Helmets</li>
+										<li class="item-menu__bike">Boots & Shoes</li>
+										<li class="item-menu__bike">Gloves</li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike">Rain Gear</li>
+										<li class="item-menu__bike">T-Shirts & Polos</li>
+										<li class="item-menu__bike">Sweatshirts & Hoodies</li>
+										<li class="item-menu__bike">Jeans & Pants</li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike fw-normal">Performance</li>
+										<li class="item-menu__bike fw-normal">Hats & Caps</li>
+										<hr>
+										<li class="item-menu__bike fw-bold">Shop all mens <i
+												class="fa-solid fa-arrow-right"></i></li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike fw-bold">New Arrivals</li>
+										<li class="item-menu__bike fw-bold">120th Anniversary</li>
+										<li class="item-menu__bike fw-bold">Last chance deals</li>
+										<li class="item-menu__bike fw-bold">Museum</li>
+										<li class="item-menu__bike fw-bold">Best Sellers</li>
+									</div>
+								</div>
+							</ul>
+						</li>
+						<li class="menu-option"><a href="#"
+								class="text-decoration-none title-menu-middle p-0"
+								style="color:black">WOMENS</a>
+							<ul class="list-bike__menu list-unstyled position-absolute p-3  fw-normal">
+								<div class="d-flex">
+									<div class="me-5">
+										<li class="item-menu__bike">Jackets & Vests</li>
+										<li class="item-menu__bike">Helmets</li>
+										<li class="item-menu__bike">Boots & Shoes</li>
+										<li class="item-menu__bike">Gloves</li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike">Rain Gear</li>
+										<li class="item-menu__bike">T-Shirts & Polos</li>
+										<li class="item-menu__bike">Sweatshirts & Hoodies</li>
+										<li class="item-menu__bike">Jeans & Pants</li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike fw-normal">Performance</li>
+										<li class="item-menu__bike fw-normal">Hats & Caps</li>
+										<hr>
+										<li class="item-menu__bike fw-bold">Shop all womens <i
+												class="fa-solid fa-arrow-right"></i></li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike fw-bold">New Arrivals</li>
+										<li class="item-menu__bike fw-bold">120th Anniversary</li>
+										<li class="item-menu__bike fw-bold">Last chance deals</li>
+										<li class="item-menu__bike fw-bold">Museum</li>
+										<li class="item-menu__bike fw-bold">Best Sellers</li>
+									</div>
+								</div>
+							</ul>
+						</li>
+						<li class="menu-option"><a href="#"
+								class="text-decoration-none title-menu-middle p-0"
+								style="color:black">GOODS &
+								GIFTS</a>
+							<ul class="list-bike__menu list-unstyled position-absolute p-3  fw-normal">
+								<div class="d-flex">
+									<div class="me-5">
+										<li class="item-menu__bike">Home Décor</li>
+										<li class="item-menu__bike">Coffee Mugs for Motorcycle
+											Enthusiasts</li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike">Drinkware</li>
+										<li class="item-menu__bike">Gifts For The Home</li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike fw-normal">Barware & Décor</li>
+										<hr>
+										<li class="item-menu__bike fw-bold">Shop All Goods & Gifts
+											<i class="fa-solid fa-arrow-right"></i></li>
+									</div>
+									<div class="me-5">
+										<li class="item-menu__bike fw-bold">New Arrivals</li>
+									</div>
+								</div>
+							</ul>
+						</li>
+						<li class="menu-option"><a href="#"
+								class="text-decoration-none title-menu-middle p-0"
+								style="color:black">EXPERIENCE
+								H-D</a>
+							<ul class="list-bike__menu list-unstyled position-absolute p-3">
+								<li class="item-menu__bike">EVENTS</li>
+								<li class="item-menu__bike">FACTORY TOURS</li>
+								<li class="item-menu__bike">HARLEY OWNERS GROUP</li>
+								<li class="item-menu__bike">H.D APP</li>
+								<hr>
+								<li class="item-menu__bike">ALL EXPERIENCE <i
+										class="fa-solid fa-arrow-right"></i></li>
+							</ul>
+						</li>
+					</div>
+				</ul>
+				<a class="btn bg-white fw-bold d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample"
+					role="button" aria-controls="offcanvasExample">
+					MENU
+				</a>
+				<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+					aria-labelledby="offcanvasExampleLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasExampleLabel"> MENU </h5>
+						<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+							aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="fw-bold list-unstyled">
+							<li class="offcanvas-menu-title mb-2 ms-4 position-relative"><a
+									href="./products.html" class="text-decoration-none">BIKES</a>
+								<ul
+									class="list-bike__menu-right list-unstyled position-absolute  fw-normal bg-white ps-3">
+									<li class="item-menu__bike"><a href="#"
+											class="text-decoration-none">Accessory
+											Packages</a></li>
+									<li class="item-menu__bike"><a href="#"
+											class="text-decoration-none">Audio &
+											Electronics</a></li>
+									<li class="item-menu__bike"><a href="#"
+											class="text-decoration-none">Bags, Luggage &
+											Racks</a></li>
+									<li class="item-menu__bike"><a href="#"
+											class="text-decoration-none">Brakes &
+											Suspension</a></li>
+									<li class="item-menu__bike"><a href="#"
+											class="text-decoration-none">Custom
+											Accessories & Trim</a></li>
+									<li class="item-menu__bike"><a href="#"
+											class="text-decoration-none">Electrical &
+											Batteries</a></li>
+									<hr>
+									<li class="item-menu__bike fw-bold">Shop all parts <i
+											class="fa-solid fa-arrow-right"></i>
+									</li>
+								</ul>
+							</li>
+							<li class="offcanvas-menu-title mb-2 ms-4"><a href="#"
+									class="text-decoration-none">PARTS</a></li>
+							<li class="offcanvas-menu-title mb-2 ms-4"><a href="#"
+									class="text-decoration-none">MENS</a>
+							</li>
+							<li class="offcanvas-menu-title mb-2 ms-4"><a href="#"
+									class="text-decoration-none">WOMENS</a></li>
+							<li class="offcanvas-menu-title mb-2 ms-4"><a href="#"
+									class="text-decoration-none">GOOD &
+									GIFTS</a></li>
+							<li class="offcanvas-menu-title mb-2 ms-4"><a href="#"
+									class="text-decoration-none">EXPERIENCE H-D</a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="box-menu__three list-unstyled d-md-flex m-0 align-items-center">
+					<li class="box-search col-12 col-md-6">
+						<form action="#" get style="padding: 5px" class="search d-flex border-1">
+							<button class="border-0 bg-white"><i
+									class="fa-solid fa-motorcycle"></i></button>
+							<input type="text" class="search-target border-0">
+						</form>
+					</li>
+					<div class="d-flex align-items-center">
+						<li class="sign-in">
+							<form action="#">
+								<button class="btn btn-sign-in" type="button" data-bs-toggle="offcanvas"
+									data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+									<div style="text-align: center;"><i
+											class="fa-solid fa-user-large"></i></div>
+									<p class="m-0 d-none d-lg-block" style="white-space:nowrap">Sign
+										in</p>
+								</button>
+								<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+									aria-labelledby="offcanvasRightLabel">
+									<div class="m-5">
+										<div class="offcanvas-header">
+											<h5 id="offcanvasRightLabel" class="fw-bold">SIGN IN
+											</h5>
+											<button type="button" class="btn-close text-reset"
+												data-bs-dismiss="offcanvas"
+												aria-label="Close"></button>
+										</div>
+										<div class="offcanvas-body">
+											<div class="form-floating mb-3">
+												<input type="email" class="form-control"
+													id="floatingInput"
+													placeholder="name@example.com" required>
+												<label for="floatingInput">Email*</label>
+											</div>
+											<div class="form-floating">
+												<input type="password" class="form-control"
+													id="floatingPassword"
+													placeholder="Password" required>
+												<label for="floatingPassword">Password*</label>
+											</div>
+											<div><a href="#" class="" style="color:black">Forgot
+													password</a></div>
+											<div class="mb-2">By logging in, you agree to the <a
+													href="#" style="color:black">terms of
+													use</a> and
+												<a href="#"
+													style="color:black">privacy_policy</a>.
+											</div>
+											<button class="btn-sign-in border-0 p-2 fw-bold">SIGN
+												IN</button>
+											<hr>
+											<div class="fw-bold">Create Account <i
+													class="fa-solid fa-arrow-right"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</li>
+						<li class="cart">
+							<button class="btn btn-cart" type="button" data-bs-toggle="offcanvas"
+								data-bs-target="#offcanvasRight-cart"
+								aria-controls="offcanvasRight-cart">
+								<div style="text-align:center"><i
+										class="fa-solid fa-basket-shopping"></i></div>
+								<p class="m-0 d-none d-lg-block">Cart(0)</p>
+							</button>
+							<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-cart"
+								aria-labelledby="offcanvasRightLabel">
+								<div class="m-5">
+									<div class="offcanvas-header">
+										<h5 id="offcanvasRightLabel" class="fw-bold">Your Cart</h5>
+										<button type="button" class="btn-close text-reset"
+											data-bs-dismiss="offcanvas"
+											aria-label="Close"></button>
+									</div>
+									<div class="offcanvas-body">
+										<p>0 Item(s)</p>
+										<p>Your cart is currently empty.</p>
+										<div class="ctn-shopping fw-bold">CONTINUE SHOPPING</d>
+										</div>
+									</div>
+								</div>
+						</li>
+						</di>
+				</ul>
+			</nav>
+			<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="10000">
+						<p class="text-center" style="margin-block:auto;color:white">Free Shipping with £50
+							Purchase &
+							Free Returns</p>
+					</div>
+					<div class="carousel-item">
+						<p class="text-center" style="margin-block:auto;color:white">A celebration 120 years
+							in the
+							making. <a href="#" style="color:white">Watch now</a></p>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true">
+					</span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</header>
 
-    <main>
-        <div class="container-main">
-            <section class="page-one mt-5 mb-5">
-                <div class="motor-training mt-4 mb-4 text-center">
-                    <div class="motor-training__title fw-bold">MOTORCYCLE TRAINING</div>
-                    <h2 class="motor-training__topic fw-bold">LEARN TO RIDE A MOTORCYCLE</h2>
-                    <div class="motor-training__infor d-none d-md-block ms-4 me-4">Never ridden before? Don't worry.
-                        Find out what it takes to
-                        become a new rider and get comfortable on a motorcycle. Learn the skills you need to ride with
-                        confidence. </div>
-                </div>
-                <img src="Materials/images/beginner-overview-short-hero-image-only.jpg" alt=""
-                    class="img-learning w-100">
-            </section>
+	<main>
+		<div class="container-main">
+			<section class="page-one mt-5 mb-5">
+				<div class="motor-training mt-4 mb-4 text-center">
+					<div class="motor-training__title fw-bold">MOTORCYCLE TRAINING</div>
+					<h2 class="motor-training__topic fw-bold">LEARN TO RIDE A MOTORCYCLE</h2>
+					<div class="motor-training__infor d-none d-md-block ms-4 me-4">Never ridden before? Don't
+						worry.
+						Find out what it takes to
+						become a new rider and get comfortable on a motorcycle. Learn the skills you need to
+						ride with
+						confidence. </div>
+				</div>
+				<img src="Materials/images/beginner-overview-short-hero-image-only.jpg" alt=""
+					class="img-learning w-100">
+			</section>
 
-            <section class="page-two d-md-flex d-block m-4 align-items-center">
-                <img src="Materials/images/new-rider-training-media-card.jpg" alt="" class="col-12 col-lg-7">
-                <div class="own-journey m-5">
-                    <h2 class="fw-bold">START YOUR OWN JOURNEY</h2>
-                    <p>Now's the time to get on a bike and learn to ride. Contact one of our dealers to find the right
-                        course that works for you. </p>
-                    <button class="btn-dealer p-3 border-0 fw-bold">FIND A DEALER</button>
-                </div>
-            </section>
+			<section class="page-two d-lg-flex d-block m-4 align-items-center">
+				<img src="Materials/images/new-rider-training-media-card.jpg" alt="" class="col-12 col-lg-7">
+				<div class="own-journey m-5">
+					<h2 class="fw-bold">START YOUR OWN JOURNEY</h2>
+					<p>Now's the time to get on a bike and learn to ride. Contact one of our dealers to find
+						the right
+						course that works for you. </p>
+					<button class="btn-dealer p-3 border-0 fw-bold">FIND A DEALER</button>
+				</div>
+			</section>
 
-            <section class="page-three mt-5 mb-5">
-                <div class="text-left mt-5 mb-3">
-                    <h2 class="fw-bold">A lifetime of memories begins here</h2>
-                    <p>Learning to ride might be the ultimate adventure. Explore riding tips and find out what to expect
-                        when you learn to ride.
-                    </p>
-                </div>
-                <div id="carouselExampleCaptions" class="carousel slide w-75" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                            aria-label="Slide 6"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="Materials/images/anthem-media-carousel.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>SET YOUR SOUL FREE</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="Materials/images/riding-gear-media-carousel.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>RIDING GEAR ESSENTIALS</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="Materials/images/riding-skills-media-carousel.jpg" class="d-block w-100"
-                                alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>RIDING SKILLS</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="Materials/images/how-to-start-a-motorcycle-media-carousel.jpg"
-                                class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>HOW TO FIND THE RIGHT RIDING POSITION</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item ">
-                            <img src="Materials/images/how-to-stop-a-motorcycle-media-carousel.jpg"
-                                class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>HOW TO START A MOTORCYCLE</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="Materials/images/street500-media-carousel.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>STREET 500</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </section>
+			<section class="page-three mt-5 mb-5">
+				<div class="text-left mt-5 mb-3">
+					<h2 class="fw-bold">A lifetime of memories begins here</h2>
+					<p>Learning to ride might be the ultimate adventure. Explore riding tips and find out what
+						to expect
+						when you learn to ride.
+					</p>
+				</div>
+				<div id="carouselExampleCaptions" class="carousel slide w-75" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+							class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+							aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+							aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+							aria-label="Slide 4"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+							aria-label="Slide 5"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+							aria-label="Slide 6"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="Materials/images/anthem-media-carousel.jpg" class="d-block w-100"
+								alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>SET YOUR SOUL FREE</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="Materials/images/riding-gear-media-carousel.jpg"
+								class="d-block w-100" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>RIDING GEAR ESSENTIALS</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="Materials/images/riding-skills-media-carousel.jpg"
+								class="d-block w-100" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>RIDING SKILLS</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="Materials/images/how-to-start-a-motorcycle-media-carousel.jpg"
+								class="d-block w-100" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>HOW TO FIND THE RIGHT RIDING POSITION</h5>
+							</div>
+						</div>
+						<div class="carousel-item ">
+							<img src="Materials/images/how-to-stop-a-motorcycle-media-carousel.jpg"
+								class="d-block w-100" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>HOW TO START A MOTORCYCLE</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="Materials/images/street500-media-carousel.jpg" class="d-block w-100"
+								alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>STREET 500</h5>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button"
+						data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button"
+						data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
 
-            <section class="page-four">
-                <div class="liscense mt-5 mb-5">
-                    <h2 class="liscense-heading fw-bold">UK Liscense FAQ</h2>
-                </div>
+			<section class="page-four">
+				<div class="liscense mt-5 mb-5">
+					<h2 class="liscense-heading fw-bold">UK Liscense FAQ</h2>
+				</div>
 
-                <div class="accordion accordion-flush mb-5" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                DO I NEED TO BE A CERTAIN AGE BEFORE I CAN BECOME A LICENSED MOTORCYCLE RIDER?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                Yes. You must be at least 17 to learn to ride a motorcycle.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">
-                                DO I NEED A PROVISIONAL LICENCE TO LEARN OR TAKE A TEST?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Yes. You need a provisional Category A licence. This is
-                                either included in your full car licence or as part of a provisional licence. You
-                                can apply for a provisional licence online or by filling in the D1 application form
-                                from the DVLA or Post Office®</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
-                                CAN I LEARN ON THE ROAD?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Before you can ride a motorcycle, scooter or moped on the
-                                road you have to complete Compulsory Basic Training at an approved training body
-                                (ATB).</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                aria-controls="flush-collapseFour">
-                                HOW DOES THE TEST WORK?
-                            </button>
-                        </h2>
-                        <div id="flush-collapse" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Before you can ride a motorcycle, scooter or moped on the
-                                road you have to complete Compulsory Basic Training at an approved training body
-                                (ATB).</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                aria-controls="flush-collapseFive">
-                                IS THERE MORE THAN ONE KIND OF LICENSE? </button>
-                        </h2>
-                        <div id="flush-collapseFive" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Yes. Depending on the size of engine you want your bike
-                                to have, you can choose to train and take your test for an A1 or A2 Motorcycle
-                                Licence. Or, if you’re over 21, you can do Direct Access, meaning you train and
-                                take the test on a larger bike.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseSix" aria-expanded="false"
-                                aria-controls="flush-collapseSix">
-                                WHERE CAN I FIND THE MORE DETAILED INFORMATION ON LICENSING AND TESTING?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseSix" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                We have gone to great lengths to ensure that information provided here is up to
-                                date and correct, however for the latest information please visit
-                                https://www.gov.uk/
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+				<div class="accordion accordion-flush mb-5" id="accordionFlushExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingOne">
+							<button class="accordion-button collapsed" type="button"
+								data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+								aria-expanded="false" aria-controls="flush-collapseOne">
+								DO I NEED TO BE A CERTAIN AGE BEFORE I CAN BECOME A LICENSED MOTORCYCLE
+								RIDER?
+							</button>
+						</h2>
+						<div id="flush-collapseOne" class="accordion-collapse collapse"
+							aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								Yes. You must be at least 17 to learn to ride a motorcycle.</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingTwo">
+							<button class="accordion-button collapsed" type="button"
+								data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+								aria-expanded="false" aria-controls="flush-collapseTwo">
+								DO I NEED A PROVISIONAL LICENCE TO LEARN OR TAKE A TEST?
+							</button>
+						</h2>
+						<div id="flush-collapseTwo" class="accordion-collapse collapse"
+							aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">Yes. You need a provisional Category A licence.
+								This is
+								either included in your full car licence or as part of a provisional
+								licence. You
+								can apply for a provisional licence online or by filling in the D1
+								application form
+								from the DVLA or Post Office®</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingThree">
+							<button class="accordion-button collapsed" type="button"
+								data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+								aria-expanded="false" aria-controls="flush-collapseThree">
+								CAN I LEARN ON THE ROAD?
+							</button>
+						</h2>
+						<div id="flush-collapseThree" class="accordion-collapse collapse"
+							aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">Before you can ride a motorcycle, scooter or moped
+								on the
+								road you have to complete Compulsory Basic Training at an approved
+								training body
+								(ATB).</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingFour">
+							<button class="accordion-button collapsed" type="button"
+								data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+								aria-expanded="false" aria-controls="flush-collapseFour">
+								HOW DOES THE TEST WORK?
+							</button>
+						</h2>
+						<div id="flush-collapse" class="accordion-collapse collapse"
+							aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">Before you can ride a motorcycle, scooter or moped
+								on the
+								road you have to complete Compulsory Basic Training at an approved
+								training body
+								(ATB).</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingFive">
+							<button class="accordion-button collapsed" type="button"
+								data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+								aria-expanded="false" aria-controls="flush-collapseFive">
+								IS THERE MORE THAN ONE KIND OF LICENSE? </button>
+						</h2>
+						<div id="flush-collapseFive" class="accordion-collapse collapse"
+							aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">Yes. Depending on the size of engine you want your
+								bike
+								to have, you can choose to train and take your test for an A1 or A2
+								Motorcycle
+								Licence. Or, if you’re over 21, you can do Direct Access, meaning you
+								train and
+								take the test on a larger bike.</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingSix">
+							<button class="accordion-button collapsed" type="button"
+								data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+								aria-expanded="false" aria-controls="flush-collapseSix">
+								WHERE CAN I FIND THE MORE DETAILED INFORMATION ON LICENSING AND TESTING?
+							</button>
+						</h2>
+						<div id="flush-collapseSix" class="accordion-collapse collapse"
+							aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								We have gone to great lengths to ensure that information provided here
+								is up to
+								date and correct, however for the latest information please visit
+								https://www.gov.uk/
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-            <section class="page-five">
-                <h1 class="fw-bold title-prepare-ride">Get ready to ride</h1>
-                <div class="wrapper-card d-lg-flex justify-content-evenly mt-4 mb-5">
-                    <div class="card border-0 col-12 col-lg-3 mt-3 mb-3">
-                        <img src="Materials/images/rentals-mens-apparel-card.jpg" class="card-img-top" alt="...">
-                        <div class="card-body p-0 mt-3">
-                            <h5 class="card-title fw-bold">MEN'S RIDING GEAR</h5>
-                            <p class="card-text">Get ready for any adventure with our top selling riding gear.</p>
-                            <btn class="btn-browser text-decoration-none fw-bold">
-                                <a href="#" class="text-decoration-none">Browse Men's <i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                            </btn>
-                        </div>
-                    </div>
-                    <div class="card border-0 col-12 col-lg-3 mt-3 mb-3">
-                        <img src="Materials/images/rentals-womens-apparel-card.jpg" class="card-img-top" alt="...">
-                        <div class="card-body p-0 mt-3">
-                            <h5 class="card-title fw-bold">MEN'S RIDING GEAR</h5>
-                            <p class="card-text">Get ready for any adventure with our top selling riding gear.</p>
-                            <btn class="btn-browser text-decoratio  n-none fw-bold">
-                                <a href="#" class="text-decoration-none">Browse Women's <i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                            </btn>
-                        </div>
-                    </div>
-                    <div class="card border-0 col-12 col-lg-3 mt-3 mb-3">
-                        <img src="Materials/images/fat-bob-114-2-card.jpg" class="card-img-top" alt="...">
-                        <div class="card-body p-0 mt-3">
-                            <h5 class="card-title fw-bold">HELP ME CHOOSE</h5>
-                            <p class="card-text">Want to start riding but unsure which bike is right for you? We can
-                                help you choose.</p>
-                            <btn class="btn-browser text-decoration-none fw-bold">
-                                <a href="#" class="text-decoration-none">Browse motorcycles <i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                            </btn>
-                        </div>
-                    </div>
-                </div>
-            </section>
+			<section class="page-five">
+				<h1 class="fw-bold title-prepare-ride">Get ready to ride</h1>
+				<div class="wrapper-card d-lg-flex justify-content-evenly mt-4 mb-5">
+					<div class="card border-0 col-12 col-lg-3 mt-3 mb-3">
+						<img src="Materials/images/rentals-mens-apparel-card.jpg" class="card-img-top"
+							alt="...">
+						<div class="card-body p-0 mt-3">
+							<h5 class="card-title fw-bold">MEN'S RIDING GEAR</h5>
+							<p class="card-text">Get ready for any adventure with our top selling riding
+								gear.</p>
+							<btn class="btn-browser text-decoration-none fw-bold">
+								<a href="#" class="text-decoration-none">Browse Men's <i
+										class="fa-solid fa-arrow-right"></i></a>
+							</btn>
+						</div>
+					</div>
+					<div class="card border-0 col-12 col-lg-3 mt-3 mb-3">
+						<img src="Materials/images/rentals-womens-apparel-card.jpg" class="card-img-top"
+							alt="...">
+						<div class="card-body p-0 mt-3">
+							<h5 class="card-title fw-bold">MEN'S RIDING GEAR</h5>
+							<p class="card-text">Get ready for any adventure with our top selling riding
+								gear.</p>
+							<btn class="btn-browser text-decoratio  n-none fw-bold">
+								<a href="#" class="text-decoration-none">Browse Women's <i
+										class="fa-solid fa-arrow-right"></i></a>
+							</btn>
+						</div>
+					</div>
+					<div class="card border-0 col-12 col-lg-3 mt-3 mb-3">
+						<img src="Materials/images/fat-bob-114-2-card.jpg" class="card-img-top" alt="...">
+						<div class="card-body p-0 mt-3">
+							<h5 class="card-title fw-bold">HELP ME CHOOSE</h5>
+							<p class="card-text">Want to start riding but unsure which bike is right for
+								you? We can
+								help you choose.</p>
+							<btn class="btn-browser text-decoration-none fw-bold">
+								<a href="#" class="text-decoration-none">Browse motorcycles <i
+										class="fa-solid fa-arrow-right"></i></a>
+							</btn>
+						</div>
+					</div>
+				</div>
+			</section>
 
-    </main>
+	</main>
 
-    <footer>
+	<footer>
 
-        <div class="container-footer bg-dark" style="color:white">
-            <div class="first-footer-panel footer-panel">
-                <div class="wrap-panel d-md-flex align-items-center d-none">
-                    <div class="col-lg-4 ps-2 pe-2 text-center pt-2 pb-4">
-                        <a class="fw-bold m-0 text-decoration-none last-link" style="color:white">HARLEY
-                            <span style="color:var(--orange-color)">—</span> DAVIDSON</a>
-                    </div>
-                    <div class="d-block d-sm-flex justify-content-md-evenly flex-column flex-md-row">
-                        <div class="col-4 d-md-inline-block text-center news">
-                            <p class="m-0 fw-bold text-center">NEWSLETTER SIGN-UP</p>
-                            <h3 class="m-0 fw-bold text-stay">Stay in the know</h3>
-                        </div>
-                        <div class="col-4 text-center d-md-inline-block">
-                            <button class="btn-email fw-bold ms-5">SIGN UP FOR EMAIL</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="wrap-panel d-flex flex-column justify-content-center align-items-center d-md-none">
-                    <div class="col-lg-4 ps-2 pe-2 text-center pt-2 pb-4">
-                        <a class="fw-bold m-0 text-decoration-none last-link" style="color:white">HARLEY
-                            <span style="color:var(--orange-color)">—</span> DAVIDSON</a>
-                    </div>
-                    <div class="news">
-                        <p class="m-0 fw-bold text-center">NEWSLETTER SIGN-UP</p>
-                        <h3 class="m-0 fw-bold text-stay text-center">Stay in the know</h3>
-                    </div>
-                    <button class="btn-email fw-bold d-flex justify-content-center mt-4">SIGN UP FOR EMAIL</button>
-                </div>
-            </div>
-            <hr>
-            <div class="second-footer-panel footer-panel">
-                <div class="wrap-panel d-md-flex flex-wrap justify-content-between d-none">
-                    <div class="col-md-4">
-                        <div class="group-title-panel fw-bold">
-                            CUSTOMER SUPPORT
-                        </div>
-                        <ul class="m-0 list-unstyled list-footer">
-                            <li>Contact Us</li>
-                            <li>Track Order</li>
-                            <li>Shipping and Delivery</li>
-                            <li>Returns and Exchanges</li>
-                            <li>Frequently Asked Questions</li>
-                            <li>Declaration of Conformity</li>
-                            <li>Offers</li>
-                            <li>COVID-19 Response</li>
-                        </ul>
-                        <div class="group-title-panel fw-bold">
-                            FINANCING
-                        </div>
-                        <ul class="m-0 list-unstyled list-footer">
-                            <li>Payment Estimator <i class="fa-solid fa-arrow-trend-up"></i></li>
-                            <li>Motorcycle Financing</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="group-title-panel fw-bold">
-                            MOTORCYCLE SERVICES
-                        </div>
-                        <ul class="m-0 list-unstyled list-footer">
-                            <li>Authorised Service</li>
-                            <li>Owner's Manuals <i class="fa-solid fa-arrow-trend-up"></i></li>
-                            <li>Maintenance Schedules <i class="fa-solid fa-arrow-trend-up"></i></li>
-                            <li>Software <i class="fa-solid fa-arrow-trend-up"></i></li>
-                            <li>H-D Connect</li>
-                        </ul>
-                        <div class="group-title-panel fw-bold">
-                            INSURANCE
-                        </div>
-                        <ul class="m-0 list-unstyled list-footer">
-                            <li>Insurance Services</li>
-                            <li>Warranty Services</li>
-                            <li>Roadside Assistance</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="group-title-panel fw-bold">
-                            ABOUT US
-                        </div>
-                        <ul class="m-0 list-unstyled list-footer">
-                            <li>Our Company <i class="fa-solid fa-arrow-trend-up"></i></li>
-                            <li>Careers</li>
-                            <li>Investors <i class="fa-solid fa-arrow-trend-up"></i></li>
-                            <li>Sustainability</li>
-                            <li>Factory Tours</li>
-                            <li>H-D Connect</li>
-                            <li>Museum</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class=" d-none d-sm-block d-md-none">
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
-                    <div class="container-fluid">
-                        <label class="navbar-brand navbar-list-item fw-bold ">CUSTOMER SUPPORT</label>
-                        <button class="navbar-plus" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup1" aria-controls="navbarNavAltMarkup1"
-                            aria-expanded="false" aria-label="Plus navigation">
-                            <span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup1">
-                            <div class="navbar-nav">
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Contact Us</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Track Order</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Shipping and
-                                    Delivery</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Returns and
-                                    Exchanges</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Frequently
-                                    Asked
-                                    Questions</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Declaration of
-                                    Conformity</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Offers</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">COVID-19
-                                    Response</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <hr>
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
-                    <div class="container-fluid">
-                        <label class="navbar-brand navbar-list-item fw-bold">FINANCING</label>
-                        <button class="navbar-plus" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarku2"
-                            aria-expanded="false" aria-label="Plus navigation">
-                            <span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup2">
-                            <div class="navbar-nav">
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Payment
-                                    Estimator
-                                    <i class="fa-solid fa-arrow-trend-up"></i></a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Motorcycle
-                                    Financing</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <hr>
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
-                    <div class="container-fluid">
-                        <label class="navbar-brand navbar-list-item fw-bold"> MOTORCYCLE SERVICES</label>
-                        <button class="navbar-plus" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup3" aria-controls="navbarNavAltMarkup3"
-                            aria-expanded="false" aria-label="Plus navigation">
-                            <span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup3">
-                            <div class="navbar-nav">
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Authorised
-                                    Service</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Owner's Manuals
-                                    <i class="fa-solid fa-arrow-trend-up"></i></a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Maintenance
-                                    Schedules <i class="fa-solid fa-arrow-trend-up"></i></a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Software <i
-                                        class="fa-solid fa-arrow-trend-up"></i></a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">H-D Connect</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <hr>
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
-                    <div class="container-fluid">
-                        <label class="navbar-brand navbar-list-item fw-bold"> INSURANCE</label>
-                        <button class="navbar-plus" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup4" aria-controls="navbarNavAltMarkup4"
-                            aria-expanded="false" aria-label="Plus navigation">
-                            <span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup4">
-                            <div class="navbar-nav">
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Insurance
-                                    Services</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Warranty
-                                    Services</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Roadside
-                                    Assistance</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <hr>
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
-                    <div class="container-fluid">
-                        <label class="navbar-brand navbar-list-item fw-bold"> ABOUT US</label>
-                        <button class="navbar-plus" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup5" aria-controls="navbarNavAltMarkup5"
-                            aria-expanded="false" aria-label="Plus navigation">
-                            <span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup5">
-                            <div class="navbar-nav">
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Our Company <i
-                                        class="fa-solid fa-arrow-trend-up"></i></a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Careers</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Investors <i
-                                        class="fa-solid fa-arrow-trend-up"></i></a>
-                                <a class="navbar-list-item nav-link active" aria-current="page"
-                                    href="#">Sustainability</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Factory
-                                    Tours</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">H-D Connect</a>
-                                <a class="navbar-list-item nav-link active" aria-current="page" href="#">Museum</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <div class="d-block d-sm-none">
-                <div class="ms-4">
-                    <div>
-                        <button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            CUSTOMER SUPPORT
-                        </button>
-                    </div>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body col-12 text-white-50 bg-dark">
-                            <ul>
-                                <li>Contact Us</li>
-                                <li>Track Order</li>
-                                <li>Shipping and Delivery</li>
-                                <li>Returns and Exchanges</li>
-                                <li>Frequently Asked Questions</li>
-                                <li>Declaration of Conformity</li>
-                                <li>Offers</li>
-                                <li>COVID-19 Response</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="ms-4">
-                    <div>
-                        <button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            FINANCING
-                        </button>
-                    </div>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body col-12 text-white-50 bg-dark">
-                            <ul>
-                                <li>Payment Estimator <i class="fa-solid fa-arrow-trend-up"></i></li>
-                                <li>Motorcycle Financing</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="ms-4">
-                    <div>
-                        <button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            MOTORCYCLE SERVICES
-                        </button>
-                    </div>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body col-12 text-white-50 bg-dark">
-                            <ul>
-                                <li>Authorised Service</li>
-                                <li>Owner's Manuals <i class="fa-solid fa-arrow-trend-up"></i></li>
-                                <li>Maintenance Schedules <i class="fa-solid fa-arrow-trend-up"></i></li>
-                                <li>Software <i class="fa-solid fa-arrow-trend-up"></i></li>
-                                <li>H-D Connect</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="ms-4">
-                    <div>
-                        <button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            INSURANCE
-                        </button>
-                    </div>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body col-12 text-white-50 bg-dark">
-                            <ul>
-                                <li>Insurance Services</li>
-                                <li>Warranty Services</li>
-                                <li>Roadside Assistance</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="ms-4">
-                    <div>
-                        <button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            ABOUT US
-                        </button>
-                    </div>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body col-12 text-white-50 bg-dark">
-                            <ul>
-                                <li>Our Company <i class="fa-solid fa-arrow-trend-up"></i></li>
-                                <li>Careers</li>
-                                <li>Investors <i class="fa-solid fa-arrow-trend-up"></i></li>
-                                <li>Sustainability</li>
-                                <li>Factory Tours</li>
-                                <li>H-D Connect</li>
-                                <li>Museum</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="third-footer-panel footer-panel d-flex justify-content-evenly align-items-center">
-                <ul class="list-unstyled d-md-flex flex-wrap ps-4 justify-content-center d-none ">
-                    <li class="third-footer__item">Sitemap</li>
-                    <li class="third-footer__item">Disclaimers</li>
-                    <li class="third-footer__item">Privacy Policy</li>
-                    <li class="third-footer__item">Legal Notice</li>
-                    <li class="third-footer__item">Terms</li>
-                    <li class="third-footer__item">Cookie Policy</li>
-                    <li class="third-footer__item">Manage Cookie Preferences</li>
-                    <li class="third-footer__item">We Care About You</li>
-                    <li class="third-footer__item">UK Modern Slavery</li>
-                    <li class="third-footer__item">UK Tax Policy</li>
-                </ul>
-                <ul class="list-unstyled d-flex  ps-4 d-md-none">
-                    <div>
-                        <li class="third-footer__item text-center">
-                            <p class="m-0">Sitemap</p>
-                        </li>
-                        <li class="third-footer__item">Disclaimers</li>
-                        <li class="third-footer__item">Privacy Policy</li>
-                        <li class="third-footer__item">Legal Notice</li>
-                        <li class="third-footer__item">Terms</li>
-                    </div>
-                    <div>
-                        <li class="third-footer__item">Cookie Policy</li>
-                        <li class="third-footer__item">Manage Cookie Preferences</li>
-                        <li class="third-footer__item">We Care About You</li>
-                        <li class="third-footer__item">UK Modern Slavery</li>
-                        <li class="third-footer__item">UK Tax Policy</li>
-                    </div>
-                </ul>
-            </div>
-            <hr>
-            <div class="fourth-footer-panel footer-panel d-md-flex d-block align-content-center flex-md-wrap">
-                <select name="" id="" class="list-language__two bg-dark col-3 rounded-3">
-                    <option value="">VIE - Vietnamese</option>
-                    <option value="">VIE - Vietnamese</option>
-                    <option value="">VIE - Vietnamese</option>
-                </select>
-                <p class="col-md-7 m-0 p-3 col-12">&copy 2022 H.D or its affiliates. HARLEY-DAVIDSON, HARLEY, H-D, and
-                    the
-                    Bar and
-                    Shield Logo
-                    are among the trademarks of H •D U.S.A., LLC Third-party trademarks are the property of
-                    their
-                    respective owners.</p>
-                <div class="icon-social col-2 d-flex">
-                    <i class="fa-brands fa-facebook ps-2 pe-2"></i>
-                    <i class="fa-brands fa-twitter ps-2 pe-2"></i>
-                    <i class="fa-brands fa-instagram ps-2 pe-2"></i>
-                    <i class="fa-brands fa-youtube ps-2 pe-2"></i>
-                </div>
-            </div>
-        </div>
-    </footer>
+		<div class="container-footer bg-dark" style="color:white">
+			<div class="first-footer-panel footer-panel">
+				<div class="wrap-panel d-md-flex align-items-center d-none">
+					<div class="col-lg-4 ps-2 pe-2 text-center pt-2 pb-4">
+						<a class="fw-bold m-0 text-decoration-none last-link" style="color:white">HARLEY
+							<span style="color:var(--orange-color)">—</span> DAVIDSON</a>
+					</div>
+					<div class="d-block d-sm-flex justify-content-md-evenly flex-column flex-md-row">
+						<div class="col-4 d-md-inline-block text-center news">
+							<p class="m-0 fw-bold text-center">NEWSLETTER SIGN-UP</p>
+							<h3 class="m-0 fw-bold text-stay">Stay in the know</h3>
+						</div>
+						<div class="col-4 text-center d-md-inline-block">
+							<button class="btn-email fw-bold ms-5">SIGN UP FOR EMAIL</button>
+						</div>
+					</div>
+				</div>
+				<div class="wrap-panel d-flex flex-column justify-content-center align-items-center d-md-none">
+					<div class="col-lg-4 ps-2 pe-2 text-center pt-2 pb-4">
+						<a class="fw-bold m-0 text-decoration-none last-link" style="color:white">HARLEY
+							<span style="color:var(--orange-color)">—</span> DAVIDSON</a>
+					</div>
+					<div class="news">
+						<p class="m-0 fw-bold text-center">NEWSLETTER SIGN-UP</p>
+						<h3 class="m-0 fw-bold text-stay text-center">Stay in the know</h3>
+					</div>
+					<button class="btn-email fw-bold d-flex justify-content-center mt-4">SIGN UP FOR
+						EMAIL</button>
+				</div>
+			</div>
+			<hr>
+			<div class="second-footer-panel footer-panel">
+				<div class="wrap-panel d-md-flex flex-wrap justify-content-between d-none">
+					<div class="col-md-4">
+						<div class="group-title-panel fw-bold">
+							CUSTOMER SUPPORT
+						</div>
+						<ul class="m-0 list-unstyled list-footer">
+							<li>Contact Us</li>
+							<li>Track Order</li>
+							<li>Shipping and Delivery</li>
+							<li>Returns and Exchanges</li>
+							<li>Frequently Asked Questions</li>
+							<li>Declaration of Conformity</li>
+							<li>Offers</li>
+							<li>COVID-19 Response</li>
+						</ul>
+						<div class="group-title-panel fw-bold">
+							FINANCING
+						</div>
+						<ul class="m-0 list-unstyled list-footer">
+							<li>Payment Estimator <i class="fa-solid fa-arrow-trend-up"></i></li>
+							<li>Motorcycle Financing</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<div class="group-title-panel fw-bold">
+							MOTORCYCLE SERVICES
+						</div>
+						<ul class="m-0 list-unstyled list-footer">
+							<li>Authorised Service</li>
+							<li>Owner's Manuals <i class="fa-solid fa-arrow-trend-up"></i></li>
+							<li>Maintenance Schedules <i class="fa-solid fa-arrow-trend-up"></i></li>
+							<li>Software <i class="fa-solid fa-arrow-trend-up"></i></li>
+							<li>H-D Connect</li>
+						</ul>
+						<div class="group-title-panel fw-bold">
+							INSURANCE
+						</div>
+						<ul class="m-0 list-unstyled list-footer">
+							<li>Insurance Services</li>
+							<li>Warranty Services</li>
+							<li>Roadside Assistance</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<div class="group-title-panel fw-bold">
+							ABOUT US
+						</div>
+						<ul class="m-0 list-unstyled list-footer">
+							<li>Our Company <i class="fa-solid fa-arrow-trend-up"></i></li>
+							<li>Careers</li>
+							<li>Investors <i class="fa-solid fa-arrow-trend-up"></i></li>
+							<li>Sustainability</li>
+							<li>Factory Tours</li>
+							<li>H-D Connect</li>
+							<li>Museum</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class=" d-none d-sm-block d-md-none">
+				<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
+					<div class="container-fluid">
+						<label class="navbar-brand navbar-list-item fw-bold ">CUSTOMER SUPPORT</label>
+						<button class="navbar-plus" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarNavAltMarkup1" aria-controls="navbarNavAltMarkup1"
+							aria-expanded="false" aria-label="Plus navigation">
+							<span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup1">
+							<div class="navbar-nav">
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Contact Us</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Track Order</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Shipping and
+									Delivery</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Returns and
+									Exchanges</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Frequently
+									Asked
+									Questions</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Declaration of
+									Conformity</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Offers</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">COVID-19
+									Response</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<hr>
+				<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
+					<div class="container-fluid">
+						<label class="navbar-brand navbar-list-item fw-bold">FINANCING</label>
+						<button class="navbar-plus" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarNavAltMarkup2" aria-controls="navbarNavAltMarku2"
+							aria-expanded="false" aria-label="Plus navigation">
+							<span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup2">
+							<div class="navbar-nav">
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Payment
+									Estimator
+									<i class="fa-solid fa-arrow-trend-up"></i></a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Motorcycle
+									Financing</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<hr>
+				<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
+					<div class="container-fluid">
+						<label class="navbar-brand navbar-list-item fw-bold"> MOTORCYCLE SERVICES</label>
+						<button class="navbar-plus" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarNavAltMarkup3" aria-controls="navbarNavAltMarkup3"
+							aria-expanded="false" aria-label="Plus navigation">
+							<span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup3">
+							<div class="navbar-nav">
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Authorised
+									Service</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Owner's Manuals
+									<i class="fa-solid fa-arrow-trend-up"></i></a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Maintenance
+									Schedules <i class="fa-solid fa-arrow-trend-up"></i></a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Software <i class="fa-solid fa-arrow-trend-up"></i></a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">H-D Connect</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<hr>
+				<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
+					<div class="container-fluid">
+						<label class="navbar-brand navbar-list-item fw-bold"> INSURANCE</label>
+						<button class="navbar-plus" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarNavAltMarkup4" aria-controls="navbarNavAltMarkup4"
+							aria-expanded="false" aria-label="Plus navigation">
+							<span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup4">
+							<div class="navbar-nav">
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Insurance
+									Services</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Warranty
+									Services</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Roadside
+									Assistance</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<hr>
+				<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dropdown-list">
+					<div class="container-fluid">
+						<label class="navbar-brand navbar-list-item fw-bold"> ABOUT US</label>
+						<button class="navbar-plus" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarNavAltMarkup5" aria-controls="navbarNavAltMarkup5"
+							aria-expanded="false" aria-label="Plus navigation">
+							<span class="navbar-plus-icon"><i class="fa-solid fa-plus"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup5">
+							<div class="navbar-nav">
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Our Company <i
+										class="fa-solid fa-arrow-trend-up"></i></a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Careers</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Investors <i class="fa-solid fa-arrow-trend-up"></i></a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Sustainability</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Factory
+									Tours</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">H-D Connect</a>
+								<a class="navbar-list-item nav-link active" aria-current="page"
+									href="#">Museum</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="ms-4">
+					<div>
+						<button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseExample" aria-expanded="false"
+							aria-controls="collapseExample">
+							CUSTOMER SUPPORT
+						</button>
+					</div>
+					<div class="collapse" id="collapseExample">
+						<div class="card card-body col-12 text-white-50 bg-dark">
+							<ul>
+								<li>Contact Us</li>
+								<li>Track Order</li>
+								<li>Shipping and Delivery</li>
+								<li>Returns and Exchanges</li>
+								<li>Frequently Asked Questions</li>
+								<li>Declaration of Conformity</li>
+								<li>Offers</li>
+								<li>COVID-19 Response</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="ms-4">
+					<div>
+						<button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseExample" aria-expanded="false"
+							aria-controls="collapseExample">
+							FINANCING
+						</button>
+					</div>
+					<div class="collapse" id="collapseExample">
+						<div class="card card-body col-12 text-white-50 bg-dark">
+							<ul>
+								<li>Payment Estimator <i class="fa-solid fa-arrow-trend-up"></i></li>
+								<li>Motorcycle Financing</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="ms-4">
+					<div>
+						<button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseExample" aria-expanded="false"
+							aria-controls="collapseExample">
+							MOTORCYCLE SERVICES
+						</button>
+					</div>
+					<div class="collapse" id="collapseExample">
+						<div class="card card-body col-12 text-white-50 bg-dark">
+							<ul>
+								<li>Authorised Service</li>
+								<li>Owner's Manuals <i class="fa-solid fa-arrow-trend-up"></i></li>
+								<li>Maintenance Schedules <i class="fa-solid fa-arrow-trend-up"></i>
+								</li>
+								<li>Software <i class="fa-solid fa-arrow-trend-up"></i></li>
+								<li>H-D Connect</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="ms-4">
+					<div>
+						<button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseExample" aria-expanded="false"
+							aria-controls="collapseExample">
+							INSURANCE
+						</button>
+					</div>
+					<div class="collapse" id="collapseExample">
+						<div class="card card-body col-12 text-white-50 bg-dark">
+							<ul>
+								<li>Insurance Services</li>
+								<li>Warranty Services</li>
+								<li>Roadside Assistance</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="ms-4">
+					<div>
+						<button class="btn btn-dark fw-bold" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseExample" aria-expanded="false"
+							aria-controls="collapseExample">
+							ABOUT US
+						</button>
+					</div>
+					<div class="collapse" id="collapseExample">
+						<div class="card card-body col-12 text-white-50 bg-dark">
+							<ul>
+								<li>Our Company <i class="fa-solid fa-arrow-trend-up"></i></li>
+								<li>Careers</li>
+								<li>Investors <i class="fa-solid fa-arrow-trend-up"></i></li>
+								<li>Sustainability</li>
+								<li>Factory Tours</li>
+								<li>H-D Connect</li>
+								<li>Museum</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="third-footer-panel footer-panel d-flex justify-content-evenly align-items-center">
+				<ul class="list-unstyled d-md-flex flex-wrap ps-4 justify-content-center d-none ">
+					<li class="third-footer__item">Sitemap</li>
+					<li class="third-footer__item">Disclaimers</li>
+					<li class="third-footer__item">Privacy Policy</li>
+					<li class="third-footer__item">Legal Notice</li>
+					<li class="third-footer__item">Terms</li>
+					<li class="third-footer__item">Cookie Policy</li>
+					<li class="third-footer__item">Manage Cookie Preferences</li>
+					<li class="third-footer__item">We Care About You</li>
+					<li class="third-footer__item">UK Modern Slavery</li>
+					<li class="third-footer__item">UK Tax Policy</li>
+				</ul>
+				<ul class="list-unstyled d-flex  ps-4 d-md-none d-sm-block d-none">
+					<div>
+						<li class="third-footer__item text-center">
+							<p class="m-0">Sitemap</p>
+						</li>
+						<li class="third-footer__item">Disclaimers</li>
+						<li class="third-footer__item">Privacy Policy</li>
+						<li class="third-footer__item">Legal Notice</li>
+						<li class="third-footer__item">Terms</li>
+					</div>
+					<div>
+						<li class="third-footer__item">Cookie Policy</li>
+						<li class="third-footer__item">Manage Cookie Preferences</li>
+						<li class="third-footer__item">We Care About You</li>
+						<li class="third-footer__item">UK Modern Slavery</li>
+						<li class="third-footer__item">UK Tax Policy</li>
+					</div>
+				</ul>
+			</div>
+			<hr>
+			<div class="fourth-footer-panel footer-panel d-md-flex d-block align-content-center flex-md-wrap">
+				<select name="" id="" class="list-language__two bg-dark col-md-3 col-12 rounded-3">
+					<option value="">VIE - Vietnamese</option>
+					<option value="">VIE - Vietnamese</option>
+					<option value="">VIE - Vietnamese</option>
+				</select>
+				<p class="col-md-7 m-0 p-3 col-12">&copy 2022 H.D or its affiliates. HARLEY-DAVIDSON, HARLEY,
+					H-D, and
+					the
+					Bar and
+					Shield Logo
+					are among the trademarks of H •D U.S.A., LLC Third-party trademarks are the property of
+					their
+					respective owners.</p>
+				<div class="icon-social col-2 d-flex">
+					<i class="fa-brands fa-facebook ps-2 pe-2"></i>
+					<i class="fa-brands fa-twitter ps-2 pe-2"></i>
+					<i class="fa-brands fa-instagram ps-2 pe-2"></i>
+					<i class="fa-brands fa-youtube ps-2 pe-2"></i>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>
